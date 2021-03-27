@@ -1,0 +1,11 @@
+Transaksi terakhir dengan profit percentage terbesar yaitu 9952 dengan persentase 100.00.
+
+Daftar nama customer di Albuquerque pada tahun 2017 antara lain:
+David Wiener
+Susan Vittorini
+Benjamin Farhat
+Michelle Lonsdale
+
+Tipe segmen customeryang penjualnnya paling sedikit adalah Home Office dengan total keuntungan 1783.00
+
+Wilayah bagian (region) yang memiliki total keuntungan (profit) yang paling sedikit adalah Central dengan total keuntungan 39706.36
