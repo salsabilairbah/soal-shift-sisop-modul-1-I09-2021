@@ -13,7 +13,7 @@ no.b
 - use uniq to count the uniqueness in the data
 - last sort descending
 
-NOMER 3
+NOMER 2
 no. a
 -Membuat program awk sesuai logika (error)
 -mendeteksi error (hasil integer -2147483647, float -nan)
