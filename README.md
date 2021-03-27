@@ -47,3 +47,9 @@ no. e
 -mencoba memasukkan setiap awk program ke file hasil.txt
 -ternyata semua program awk perlu dibuat program bash dulu
 -membuat nano untuk menampung semua awk program, kemudian di run dan menghasilkan hasil.txt
+
+NOMER 3
+no. a 
+- get the picture from website "https://loremflickr.com/320/240/kitten" because there are 23 pictures, we need looping to do that operation from looping 1 until      23 using -wget command and save the logs to the file "Foto.log"
+- because the pictures is random and we can get the same picture, we must to delete the same one (2nd looping)
+- then, save the pictures with format name "Koleksi_xx" start from "Koleksi_01, Koleksi_02, ..." (3rd looping)
