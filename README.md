@@ -41,6 +41,7 @@ no.e
 ![1e_sisop](https://user-images.githubusercontent.com/74058892/113434252-ce7fd500-940a-11eb-9c1b-23e2f6ac27b6.png)
 
 NOMER 2
+
 no. a
 -Membuat program awk sesuai logika (error)
 -mendeteksi error (hasil integer -2147483647, float -nan)
@@ -76,6 +77,7 @@ no. e
 ![WhatsApp Image 2021-03-26 at 19 05 07](https://user-images.githubusercontent.com/74058892/112724347-6ed68500-8f45-11eb-9d36-a3aebccb604d.jpeg)
 
 NUMBER 3
+
 no. a 
 - get the picture from website "https://loremflickr.com/320/240/kitten" because there are 23 pictures, we need looping to do that operation from looping 1 until      23 using -wget command and save the logs to the file "Foto.log"
 - because the pictures is random and we can get the same picture, we must to delete the same one (2nd looping)
