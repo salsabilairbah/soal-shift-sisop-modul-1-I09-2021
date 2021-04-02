@@ -23,7 +23,6 @@ no.c
 - after thta, we can get the users'name
 - next, to calculate the error and info, both use grep
 - then just echo the name, info and error
-- done
 ![1c_sisop](https://user-images.githubusercontent.com/74058892/113434250-cde73e80-940a-11eb-8ad1-26fa1c60ad75.png)
 
 no.d
@@ -34,8 +33,8 @@ no.d
 ![1d_sisop](https://user-images.githubusercontent.com/74058892/113434251-cde73e80-940a-11eb-8609-a6c9a6d20c65.png)
 
 no.e
--like number 1d, first we find the users' name 
--after we get the users' name, we have to get the total info and total error by using cat and grep in each totalinfo and totalerror
+- like number 1d, first we find the users' name 
+- after we get the users' name, we have to get the total info and total error by using cat and grep in each totalinfo and totalerror
 - then, echo the user, totalinfo, and totalerror
 - sed use to insert the data username, info, and error to user_sttistic.csv
 ![1e_sisop](https://user-images.githubusercontent.com/74058892/113434252-ce7fd500-940a-11eb-9c1b-23e2f6ac27b6.png)
