@@ -1,7 +1,3 @@
-![WhatsApp Image 2021-03-26 at 19 05 07(1)](https://user-images.githubusercontent.com/74058892/112724337-69793a80-8f45-11eb-9762-a8dae42591c2.jpeg)
-![WhatsApp Image 2021-03-26 at 19 05 07(2)](https://user-images.githubusercontent.com/74058892/112724344-6d0cc180-8f45-11eb-8ccd-98595a0bef7f.jpeg)
-![WhatsApp Image 2021-03-26 at 19 05 07(3)](https://user-images.githubusercontent.com/74058892/112724346-6da55800-8f45-11eb-944c-f5f0999068ab.jpeg)
-![WhatsApp Image 2021-03-26 at 19 05 07](https://user-images.githubusercontent.com/74058892/112724347-6ed68500-8f45-11eb-9d36-a3aebccb604d.jpeg)
 NOMER 1
 no. a
 - Find way to cut words/sentence until "error"
@@ -16,6 +12,27 @@ no.b
 - After that sort
 - use uniq to count the uniqueness in the data
 - last sort descending
+
+no.c
+- First, to find the users' name, use cut until delimiter open bracket point field 2
+- second, cut again until delimiter close bracket in point field 1
+- then sort, and use uniq to count the uniqueness in the data
+- after thta, we can get the users'name
+- next, to calculate the error and info, both use grep
+- then just echo the name, info and error
+- done
+
+no.d
+- first, like in 1b, we count the error.
+- after that, we have to find the total error and the errorname by using echo and cut until delimiter space in point fiels 1 for totalerror and point field 2 for errorname
+- we echo the errorname and totalname
+- sed use to insert the data error, count into error_message.csv
+
+no.e
+-like number 1d, first we find the users' name 
+-after we get the users' name, we have to get the total info and total error by using cat and grep in each totalinfo and totalerror
+- then, echo the user, totalinfo, and totalerror
+- sed use to insert the data username, info, and error to user_sttistic.csv
 
 NOMER 2
 no. a
@@ -47,6 +64,10 @@ no. e
 -mencoba memasukkan setiap awk program ke file hasil.txt
 -ternyata semua program awk perlu dibuat program bash dulu
 -membuat nano untuk menampung semua awk program, kemudian di run dan menghasilkan hasil.txt
+![WhatsApp Image 2021-03-26 at 19 05 07(1)](https://user-images.githubusercontent.com/74058892/112724337-69793a80-8f45-11eb-9762-a8dae42591c2.jpeg)
+![WhatsApp Image 2021-03-26 at 19 05 07(2)](https://user-images.githubusercontent.com/74058892/112724344-6d0cc180-8f45-11eb-8ccd-98595a0bef7f.jpeg)
+![WhatsApp Image 2021-03-26 at 19 05 07(3)](https://user-images.githubusercontent.com/74058892/112724346-6da55800-8f45-11eb-944c-f5f0999068ab.jpeg)
+![WhatsApp Image 2021-03-26 at 19 05 07](https://user-images.githubusercontent.com/74058892/112724347-6ed68500-8f45-11eb-9d36-a3aebccb604d.jpeg)
 
 NOMER 3
 no. a 
