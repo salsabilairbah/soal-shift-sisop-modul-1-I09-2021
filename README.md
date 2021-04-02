@@ -1,5 +1,6 @@
 
 NUMBER 1
+
 no. a
 - Find way to cut words/sentence until "error"
 - Use cat to take text that in file syslog.log
