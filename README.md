@@ -48,6 +48,8 @@ NO. A
 
 profil percentage terbesar dan menampilkannya sebagai Roq ID dan profil percentage.
 
+![WhatsApp Image 2021-03-26 at 19 05 07(3)](https://user-images.githubusercontent.com/74058892/112724346-6da55800-8f45-11eb-944c-f5f0999068ab.jpeg)
+
 Untuk mencari profil percentage, kita menggunakan profit per cost price dikali 100%, dimana cost profit didapat dari selisih sales dengan profit. Pada data, sales berata pada kolom ke 21, sedangkan profit pada kolom ke 18. Untuk mencari nilai maksimum, diperlukan sebuah variabel untuk menampung nilai tersebut. Jika terdapat nilai yang lebih besar, maka variabel diganti. Urutan pengerjaan adalah sebagai berikut.
 
 - Membuat program awk sesuai logika (error)
@@ -61,6 +63,8 @@ Kendala terletak pada saat awal ingin mengaplikasikan algo, karena tidak menghas
 NO. B
 
 menampilkan daftar nama customer pada transaksi tahun 2017 di Albuquerque.
+
+![WhatsApp Image 2021-03-26 at 19 05 07(2)](https://user-images.githubusercontent.com/74058892/112724344-6d0cc180-8f45-11eb-8ccd-98595a0bef7f.jpeg)
 
 Tanggal transaksi dapat dilihat pada tanggal order pada kolom ke 3. Dapat juga dilihat pada salah satu substring pada Order ID (sama). Alberquerque merupakan kota yang dapat dilihat di tabel ke  10. Untuk mendapatkan nama customer, kita perlu mengecek substring dari tanggal order dan nama kota, kemudian memasukkan nama sebagai index string agar tidak ada pengulangan data. Langkah-langkah pengerjaan adalah sebagai berikut.
 
@@ -77,6 +81,8 @@ NO. C
 
 Segment customer yang jumlah transaksinya paling sedikit
 
+![WhatsApp Image 2021-03-26 at 19 05 07(1)](https://user-images.githubusercontent.com/74058892/112724337-69793a80-8f45-11eb-9762-a8dae42591c2.jpeg)
+
 Untuk mencari customer yang jumlah transaksinya paling sedikit, perlu membuat variavel (mirip nomer 2a) untuk menampung nilai terkecil. Setiap segment akan dimasukkan ke array, dan setiap terdapat pengecekan akan ditambah nilainya. Kemudian di akhir, setiap array yang mewakilkan akan diiterasi, mana yang nilainya paling kecil dan ditampilkan nama segment dan nilainya. Langkah-langkahnya sebagai berikut.
 
 - Mencari perulangan, branching, dan array pada linux
@@ -89,6 +95,8 @@ Tidak ada kendala yang berarti, hanya pencarian dan kekeliruan syntax
 NO. D
 
 Mencari keuntungan paling sedikit pada setiap wilayah
+
+![WhatsApp Image 2021-03-26 at 19 05 07](https://user-images.githubusercontent.com/74058892/112724347-6ed68500-8f45-11eb-9d36-a3aebccb604d.jpeg)
 
 Algoritma yang digunakan hampir mirip dengan nomer 2c, perbedaan terletak pada variabel yang dibandingkan. Pada sebelumnya mencari jumlah segmen, sehingga setiap ada pengecekan segmen yantg sama maka akan dilakukan penambahan jumlah (+1). Saat ini, setiap ada pengecekan wilayah akan dilakukan penambahan nilai, sehingga nilai yang ada pada data ditambahkan ke variabel. Langkah-langkah sama dengan nomer 2c.
 
