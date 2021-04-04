@@ -49,11 +49,11 @@ profil percentage terbesar dan menampilkannya sebagai Roq ID dan profil percenta
 
 Untuk mencari profil percentage, kita menggunakan profit per cost price dikali 100%, dimana cost profit didapat dari selisih sales dengan profit. Pada data, sales berata pada kolom ke 21, sedangkan profit pada kolom ke 18. Untuk mencari nilai maksimum, diperlukan sebuah variabel untuk menampung nilai tersebut. Jika terdapat nilai yang lebih besar, maka variabel diganti. Urutan pengerjaan adalah sebagai berikut.
 
--Membuat program awk sesuai logika (error)
--mendeteksi error (hasil integer -2147483647, float -nan)
--mengecek data apakah data yang dimaksud sesuai
--data tidak sesuai karena setiap data dipisahkan dengan tab (dilihat melalui notepad), sehingga tidak bisa manual (perlu file separate)
--menggunakan logika yang sama tetapi menggunakan file separate (benar)
+- Membuat program awk sesuai logika (error)
+- mendeteksi error (hasil integer -2147483647, float -nan)
+- mengecek data apakah data yang dimaksud sesuai
+- data tidak sesuai karena setiap data dipisahkan dengan tab (dilihat melalui notepad), sehingga tidak bisa manual (perlu file separate)
+- menggunakan logika yang sama tetapi menggunakan file separate (benar)
 
 Kendala terletak pada saat awal ingin mengaplikasikan algo, karena tidak menghasilkan hasil yang sesuai. Ternyata kesalahan terletak pada tidak adanya file separator.
 
@@ -62,12 +62,12 @@ menampilkan daftar nama customer pada transaksi tahun 2017 di Albuquerque.
 
 Tanggal transaksi dapat dilihat pada tanggal order pada kolom ke 3. Dapat juga dilihat pada salah satu substring pada Order ID (sama). Alberquerque merupakan kota yang dapat dilihat di tabel ke  10. Untuk mendapatkan nama customer, kita perlu mengecek substring dari tanggal order dan nama kota, kemudian memasukkan nama sebagai index string agar tidak ada pengulangan data. Langkah-langkah pengerjaan adalah sebagai berikut.
 
--Mencari cara untuk membandingkan tanggal
--tanggal pada data berbentuk string, sehingga mencari cara membandingkan beberapa character pada string
--menggunakan substr untuk membandungkan str tanggal pada 2 index terakhir
--jika diprint langsung, akan menampilkan nama yang sama
--mencari tahu cara agar data tidak sama (index array bisa berisi string, sehingga dimasukkan array agar jika sama nilai tidak berubah)
--menampilkan array yang isinya string nama
+- Mencari cara untuk membandingkan tanggal
+- tanggal pada data berbentuk string, sehingga mencari cara membandingkan beberapa character pada string
+- menggunakan substr untuk membandungkan str tanggal pada 2 index terakhir
+- jika diprint langsung, akan menampilkan nama yang sama
+- mencari tahu cara agar data tidak sama (index array bisa berisi string, sehingga dimasukkan array agar jika sama nilai tidak berubah)
+- menampilkan array yang isinya string nama
 
 Kendala terletak pada cara mengecek tanggal. Awalnya mencari apakah terdapat pembanding date di AWK. Akhirnya menggunakan substring karena lebih mudah.
 
@@ -76,10 +76,10 @@ Segment customer yang jumlah transaksinya paling sedikit
 
 Untuk mencari customer yang jumlah transaksinya paling sedikit, perlu membuat variavel (mirip nomer 2a) untuk menampung nilai terkecil. Setiap segment akan dimasukkan ke array, dan setiap terdapat pengecekan akan ditambah nilainya. Kemudian di akhir, setiap array yang mewakilkan akan diiterasi, mana yang nilainya paling kecil dan ditampilkan nama segment dan nilainya. Langkah-langkahnya sebagai berikut.
 
--Mencari perulangan, branching, dan array pada linux
--Memikirkan algoritma yang cocok dan tidak panjang
--kekeliruan syntax, perlu semicolon setelah fungsi dalam looping for
--menggunakan algo yang sama (benar)
+- Mencari perulangan, branching, dan array pada linux
+- Memikirkan algoritma yang cocok dan tidak panjang
+- kekeliruan syntax, perlu semicolon setelah fungsi dalam looping for
+- menggunakan algo yang sama (benar)
 
 Tidak ada kendala yang berarti, hanya pencarian dan kekeliruan syntax
 
