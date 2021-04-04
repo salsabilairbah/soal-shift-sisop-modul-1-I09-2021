@@ -43,7 +43,7 @@ no.e
 NOMER 2
 
 Diberikan data berupa file tsv dengan nama "Laporan-TokoShiSop.tsv" yang dapat didownload di modul utama. Pengerjaan dilakukan dengan awk. Dari data tersebut, kita mencari :
-
+ 
 no. a
 profil percentage terbesar dan menampilkannya sebagai Roq ID dan profil percentage.
 
