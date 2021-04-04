@@ -96,9 +96,16 @@ Tidak ada kendala.
 
 NO. E
 
--mencoba memasukkan setiap awk program ke file hasil.txt
--ternyata semua program awk perlu dibuat program bash dulu
--membuat nano untuk menampung semua awk program, kemudian di run dan menghasilkan hasil.txt
+Memasukkan setiap output dengan format terlampir. Pada perintah, program dibuat dalam format shell.
+
+- mencoba memasukkan setiap awk program ke file hasil.txt satu-satu
+- Untuk memasukkan semua program awk perlu dibuat program bash dulu
+- membuat nano untuk menampung semua awk program 
+- Memasukkan semua BEGIN pada satu BEGIN di shell, begitu pula dengan body dan END
+- Run dan menghasilkan hasil.txt
+
+Tidak ada kendala yang berarti, sempat kebingungan maksud dimasukkan ke shell.
+
 ![WhatsApp Image 2021-03-26 at 19 05 07(1)](https://user-images.githubusercontent.com/74058892/112724337-69793a80-8f45-11eb-9762-a8dae42591c2.jpeg)
 ![WhatsApp Image 2021-03-26 at 19 05 07(2)](https://user-images.githubusercontent.com/74058892/112724344-6d0cc180-8f45-11eb-8ccd-98595a0bef7f.jpeg)
 ![WhatsApp Image 2021-03-26 at 19 05 07(3)](https://user-images.githubusercontent.com/74058892/112724346-6da55800-8f45-11eb-944c-f5f0999068ab.jpeg)
