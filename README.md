@@ -113,6 +113,7 @@ Memasukkan setiap output dengan format terlampir. Pada perintah, program dibuat 
 - Run dan menghasilkan hasil.txt
 
 Tidak ada kendala yang berarti, sempat kebingungan maksud dimasukkan ke shell.
+![WhatsApp Image 2021-04-04 at 21 01 01](https://user-images.githubusercontent.com/74058892/113511308-6f949a00-9589-11eb-8d12-25c83d51d71d.jpeg)
 
 
 NUMBER 3
